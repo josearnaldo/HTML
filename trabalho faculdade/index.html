@@ -1,0 +1,103 @@
+<html>
+    <head>
+
+        <title>LBD</title>
+
+    </head>
+    <body>
+        <!-- Width de todas as tabelas foi configurado para 90% e centralizado 
+como não foi utilizado css as margens do navegador não foi zerado sendo assim terá espaço entre as laterais
+         
+        Como alguns requisitos precisava de javascrip para mostrar o conteúdo, logo então não referenciei nesse documento-->
+        <!-- feito por José Arnaldo dos Santos Júnior RGA: 2022103216-->
+        
+        
+        <!-- Parte superior numeros de telefone e icones-->
+        <table border= "0" cellspacing="3px" width="90%" align="center" bgcolor="#25435b">
+            <tr>
+            <td align="left" width="15%"><img src = "src/fone.png"><font size="4" color="white"><strong>  (67)  3 0 5 6 - 9 3 0 0</strong></font></td>
+            <td align="left" width ="20%"><img src="src/wats.png"><font size="4" color="white"><strong>(67)  9 8 2 0 5 - 0 0 3 4</strong></td>
+            <td align="" width="5%"><img src="src/icone_facebook.png"></td>
+            <td align="" width="20%"><img src="src/icone_instagram.png"></td>
+            </tr>
+        </table>
+       
+        <table border="0" cellspacing="5px" width="90%" align="center" >
+            <tr>
+                <!-- No html1 não existe um recurso que retire a formatação que já vem configuraada na tag de ancoragem<a> sendo assim preferi deixar desse jeito-->
+            
+                <td width="20%"><a href="http://lbd.net.br/default.asp"><img src="src/LOGO_ORIG.png"></a></td>
+                <td align="center" width="12%"><a href="#" color="#212529">INSTRUÇÃO DE COLETA</a></td>
+                <td align="center"><a href="#"><p>EMPRESA</p> </a></td>
+                <td align="center"><a href="#"><p>ENDEREÇOS</p></a></td>
+                <td align="center"><a href="#"><p>OPÇÕES</p></a></td>
+                <td align="center"><a href="#"><p>DICAS</p></a></td>
+                <td align="center"><a href="#" ><p>CONTATO</p></a></td>
+            </tr>
+        </table>
+         <!--  Como é impossivel centralizar ou usar divs a ideia foi usar a imagem como background(como fundo da tabela )e dividir ela em linhas e colunas e configurar para que fique "semelhante ao site original que pode ser encontrado em : http://lbd.net.br/default.asp". Para que assim pinte uma parte e coloque os itens de senha e login -->
+         <!-- Outro detalhe é que não consegui colocar bordas já que estamos trabalhando apenas com html1 sem usar css!!!!! -->
+            <table border="0" background="tumb.jpg" width="90%" align="center" height="" cellpadding="15%">
+                <tr >
+                    <td colspan="3" align="right" height="2px" width="0px"><img src="./src/unimed.png"></td>
+                    </tr>
+                <tr>
+                <td width=" 100px"></td>
+                <td width="10%" bgcolor="#87b7ef"  align="center">
+             
+                    <img src="./src/resultado_exames.png">
+                    <p></p>
+                    <p></p>
+                    <select id="resultado" >
+                        <option value="1">Paciente</option>
+                        <option value="2">Médico</option>
+                        <option value="3">Convênio</option>
+                        <option value="4">Posto</option>
+                        <option value="5">Destino</option>
+                    </select>
+                    <!--O correto é não usar a tag br para pular linhas, porem como não consegui encontrar nennhuma tag que dasse distancia dos itens sem precisar mexer no tamanho da tabela, a minha solução foi então usar a tag <br> !! -->
+                    <br>
+                    <br>
+                    <input type="text" id="login" name="login" placeholder="Insira seu login">
+                    <br>
+                    <br>
+                    <input type="password" id="login" name="login" placeholder="Insira sua senha">
+                    <br>
+                    <br>
+                    <img src="./src/button.png">
+            </td>
+                <td width = "400px"></td>
+                </tr>
+                <tr>
+                    <td width="10%" colspan="3"></td>
+                    
+                   
+                </tr>
+            </table>
+
+                <!-- Como eu queria que o site ficasse identico ao original utilizei então a tag img para inserção das imagens do proprio site, tendo em vista que o mesmo utiliza de imagens para esse ancoragem de links!!!!! -->
+
+            <table  border="0" width="90%" align="center">
+                <tr>
+                    <br>
+                    <br>
+                    <td align="center"><img src="./src/instituto.png"><a href="#"></a></td>
+                    <td align="center"><img src="./src/pre_agendamento.png"><a href="#"></a></td>
+                    <td align="center"><img src="./src/coleta_residencial.png"><a href="#"></a></td>
+                    <td align="center"><img src="./src/plan_saude.png"><a href="#"></a></td>
+                </tr>
+            </table>
+            <table border="0" width="90%" align="center">
+                <tr>
+                    <td colspan="3"><img src="./src/inform.png"></td>
+                    
+                </tr>
+                <tr>
+                    <td align="center"><img src="./src/horario.png"></td>
+                    <td align="center"><img src="./src/loc.png"></td>
+                    <td align="center"><img src="./src/telefone.png"></td>
+                </tr>
+                <td>
+            </table>
+    </body>
+</html> 
